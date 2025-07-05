@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cargo init:*)",
+      "Bash(cargo:*)",
+      "Bash(ls:*)",
+      "mcp__deepwiki__ask_question",
+      "WebFetch(domain:github.com)",
+      "Bash(mkdir:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "playwright",
+    "taskmaster-ai",
+    "deepwiki"
+  ]
+}
